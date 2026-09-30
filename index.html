@@ -15,7 +15,7 @@
 <title>A final note</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;500;600&family=Noto+Sans+Devanagari:wght@600&display=swap" rel="stylesheet">
 <style>
   /* Layout: a spotlit opening statement on a dark stage, then a single-column scrapbook of memes, each pinned slightly askew. */
   /* Deliberately dark-only: the page looks the same whatever theme the viewer uses. */
@@ -269,6 +269,8 @@
     letter-spacing: 0;
     text-wrap: balance;
   }
+  .signoff .aside { max-width: 34rem; font-style: italic; }
+  .signoff .kaand { color: var(--gold); font-style: normal; font-weight: 600; font-family: var(--body), 'Noto Sans Devanagari', 'Mangal', sans-serif; }
   .signoff p {
     color: var(--gold);
     margin: 0;
@@ -314,6 +316,7 @@
       </button>
     </div>
   </section>
+  <p class="lead aside">There are more photos to share, but unhe memories nahi <span class="kaand" lang="hi">कांड</span> kehte hai, so I will keep them safe with me...</p>
   <p>Signing off.</p>
   <figure class="clip">
     <video src="memes/09-hamare-baad-mehfil.mp4" controls playsinline preload="metadata" aria-label="Nana Patekar dialogue clip: Hamare baad mehfil mein afsane bayan honge"></video>
